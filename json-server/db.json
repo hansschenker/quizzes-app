@@ -1,0 +1,80 @@
+{
+  "quizzes": [
+    {"id": 1, 
+      "title": "Angular Fundamentals", 
+      "category": "angular",
+      "questions": [
+        { "id": 1, 
+          "quizzeId": 1,
+          "title": "What is a Directive?" , 
+          "answers": [  
+            {"id": 1, "title": "Answer 1", "correct": true},
+            {"id": 2, "title": "Answer 2", "correct": false},
+            {"id": 3, "title": "Answer 3", "correct": false},
+            {"id": 4, "title": "Answer 4", "correct": false}
+          ]
+        },
+        { "id": 2, 
+          "quizzeId": 1,
+          "title": "What is a Component?" , 
+          "answers": [  
+            {"id": 1, "title": "Answer 1", "correct": false},
+            {"id": 2, "title": "Answer 2", "correct": true},
+            {"id": 3, "title": "Answer 3", "correct": false},
+            {"id": 4, "title": "Answer 4", "correct": false}
+          ]
+        },
+        { "id": 3, 
+          "quizzeId": 1,
+          "title": "What is a Decorator?" , 
+          "answers": [  
+            {"id": 1, "title": "Answer 1", "correct": false},
+            {"id": 2, "title": "Answer 2", "correct": false},
+            {"id": 3, "title": "Answer 3", "correct": true},
+            {"id": 4, "title": "Answer 4", "correct": false}
+          ]
+        },
+        { "id": 4, 
+          "quizzeId": 1,
+          "title": "What is Dependency Injection?" , 
+          "answers": [  
+            {"id": 1, "title": "Answer 1", "correct": false},
+            {"id": 2, "title": "Answer 2", "correct": false},
+            {"id": 3, "title": "Answer 3", "correct": false},
+            {"id": 4, "title": "Answer 4", "correct": true}
+          ]
+        },
+        { "id": 5, 
+          "quizzeId": 1,
+          "title": "What is a Dirty Checking?" , 
+          "answers": [  
+            {"id": 1, "title": "Answer 1", "correct": false},
+            {"id": 2, "title": "Answer 2", "correct": false},
+            {"id": 3, "title": "Answer 3", "correct": false},
+            {"id": 4, "title": "Answer 4", "correct": true}
+          ]
+        }
+      ]
+    },
+    {"id": 2, "title": "Typescript Fundamentals", "category": "typescript"},
+    {"id": 3, "title": "RxJs", "category": "rxjs"},
+    {"id": 4, "title": "CSS", "category": "css"},
+    {"id": 5, "title": "Javscript Functional Programming", "category": "functional programming"}
+  ],
+
+
+  "users": [
+    { "id": 1, "name": "Name 1", "email": "name1@example.com", "password": "password" },
+    { "id": 2, "name": "Name 2", "email": "name2@example.com", "password": "password" },
+    { "id": 3, "name": "Name 3", "email": "name3@example.com", "password": "password" },
+    { "id": 4, "name": "Name 4", "email": "name4@example.com", "password": "password" },
+    { "id": 5, "name": "Name 5", "email": "name5@example.com", "password": "password" }
+  ],
+  "categories": [
+    { "id": 1, "title": "Angular" },
+    { "id": 2, "title": "Typescript" },
+    { "id": 3, "title": "RxJs" },
+    { "id": 4, "title": "CSS" },
+    { "id": 5, "title": "Functional Programming" }
+  ] 
+}
